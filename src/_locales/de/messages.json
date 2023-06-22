@@ -1,0 +1,154 @@
+{
+  "appName": {
+    "message": "CheckMyVA Browser Erweiterung",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appShortName": {
+    "message": "CheckMyVA",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name. "
+  },
+  "appDesc": {
+    "message": "CheckMyVA",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the extension's name. "
+  },
+  "tab_alexa": {
+    "message": "Alexa",
+    "description": ""
+  },
+  "tab_google": {
+    "message": "Google Assistant",
+    "description": ""
+  },
+  "cta_dashboard": {
+    "message": "Alle meine Daten visualisieren",
+    "description": ""
+  },
+  "data_description_alexa": {
+    "message": "Daten Beschreibung",
+    "description": ""
+  },
+  "data_description_google": {
+    "message": "Daten Beschreibung",
+    "description": ""
+  },
+  "data_request": {
+    "message": "Daten anfordern",
+    "description": ""
+  },
+  "data_request_description_1": {
+    "message": "Wir helfen dir gerne dabei, die Daten von deinem Sprachassistenten zu beantragen, im Hintergrund wird bereits die passende Seite geladen.",
+    "description": ""
+  },
+  "data_request_description_2": {
+    "message": "Zusätzlich werden Hinweise durch rote Rahmen eingeblendet, die dir helfen, um die passenden Daten zu beantragen. Hier ein Beispiel:",
+    "description": ""
+  },
+  "data_request_description_3": {
+    "message": "So sehen unsere Hinweise aus, die wir auf den Webseiten einbinden.",
+    "description": ""
+  },
+  "data_import": {
+    "message": "Daten importieren",
+    "description": ""
+  },
+  "data_donate": {
+    "message": "Daten spenden",
+    "description": ""
+  },
+  "data_delete": {
+    "message": "Daten löschen",
+    "description": ""
+  },
+  "data_settings_alexa": {
+    "message": "Alexa Datenschutz Einstellungen",
+    "description": ""
+  },
+  "data_settings_google": {
+    "message": "Google Datenschutz Einstellungen",
+    "description": ""
+  },
+  "data_sync_alexa": {
+    "message": "Daten mit Amazon synchronisieren",
+    "description": ""
+  },
+  "donate_description_1": {
+    "message": "Hier kannst du deine Daten an das CheckMyVA Projekt spenden. Dies hilft uns bessere Auswertungen zu erstellen.",
+    "description": ""
+  },
+  "donate_description_2": {
+    "message": "Informationen was wir mit den Daten machen und Informationen zum Datenschutz findest du auf unserer Webseite.",
+    "description": ""
+  },
+  "donate_description_3": {
+    "message": "Bitte nur dann ausführen, wenn du weißt, was du machst. Es können persönliche Daten an einen Server des CheckMyVA Konsortiums übertragen werden.",
+    "description": ""
+  },
+  "donate_action_alexa": {
+    "message": "Alexa Daten Spenden",
+    "description": ""
+  },
+  "donate_action_google": {
+    "message": "Google Daten Spenden",
+    "description": ""
+  },
+  "history_empty": {
+    "message": "Es sind noch keine Daten vorhanden.",
+    "description": ""
+  },
+  "history_no_device": {
+    "message": "kein Gerät gefunden",
+    "description": ""
+  },
+  "history_description": {
+    "message": "Hier werden dir die letzten {{current}} von deinen {{all}} erfassten Befehlen angezeigt. Es können nur Daten seit deinem letzten Import oder der letzten Synchronisation berücksichtigt werden. Klicke auf 'Daten visualisieren', um alle Befehle einzusehen.",
+    "description": ""
+  },
+  "sync_description_1": {
+    "message": "Hier kannst du deine Interaktionen mit Alexa/Echo Geräten mit der Browsererweiterung synchronisieren, indem du unten auf 'Synchronisation aktivieren' klickst.",
+    "description": ""
+  },
+  "sync_description_2": {
+    "message": "Die Synchronisation wird bei jedem Browser Start im Hintergrund durchgeführt oder kann manuell gestartet werden. Damit die Synchronisation funktioniert, musst du bei Amazon.de eingeloggt sein.",
+    "description": ""
+  },
+  "sync_description_3": {
+    "message": "Abhängig davon, wie viel du deinen Sprachassistenten benutzt, kann die erste Synchronisation mehrere Stunden dauern.",
+    "description": ""
+  },
+  "sync_activate": {
+    "message": "Synchronisation aktivieren",
+    "description": ""
+  },
+  "sync_deactivate": {
+    "message": "Synchronisation deaktivieren",
+    "description": ""
+  },
+  "sync_start": {
+    "message": "Synchronisation starten",
+    "description": ""
+  },
+  "sync_reset": {
+    "message": "Synchronisation zurücksetzen",
+    "description": ""
+  },
+  "sync_export": {
+    "message": "Daten Exportieren",
+    "description": ""
+  },
+  "footer_homepage": {
+    "message": "CheckMyVA.de",
+    "description": ""
+  },
+  "footer_guide": {
+    "message": "Anleitung",
+    "description": ""
+  },
+  "footer_help": {
+    "message": "Noch Fragen?",
+    "description": ""
+  },
+  "footer_dev": {
+    "message": "Dev",
+    "description": ""
+  }
+}

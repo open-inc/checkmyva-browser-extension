@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "private": true,
+  "name": "checkmyva-browser",
+  "scripts": {
+    "build": "webpack -c webpack.config.js --mode production && node ./archive.js",
+    "start": "webpack -c webpack.config.js --mode development -w",
+    "release-firefox": "cd ./dist && web-ext-submit",
+    "release-firefox-local": "cd ./dist && dotenv web-ext-submit",
+    "release-chrome": "",
+    "release-chrome-local": ""
+  },
+  "devDependencies": {
+    "@sucrase/webpack-loader": "^2.0.0",
+    "@svgr/webpack": "^4.3.3",
+    "archiver": "^5.0.2",
+    "chrome-webstore-upload-cli": "^1.2.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "cross-env": "^6.0.3",
+    "css-loader": "^4.3.0",
+    "dotenv-cli": "^4.0.0",
+    "html-webpack-plugin": "^4.0.0-beta.8",
+    "prettier": "^1.18.2",
+    "raw-loader": "^3.1.0",
+    "sucrase": "^3.17.1",
+    "web-ext-submit": "^5.5.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-extension-reloader": "^1.1.1",
+    "webpack-manifest-version-sync-plugin": "^0.0.3"
+  },
+  "dependencies": {
+    "core-js": "^3.3.3",
+    "jszip": "^3.5.0",
+    "mobx": "^6.0.1",
+    "mobx-react-lite": "^3.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.3.1",
+    "regenerator-runtime": "^0.13.3",
+    "styled-components": "^4.4.0",
+    "webextension-polyfill": "^0.5.0"
+  }
+}
